@@ -1,0 +1,40 @@
+___
+Essentialist 1.3
+- Massive improvements to standard Gutenberg blocks.
+- Fixes and improvements.
+
+___
+Essentialist 1.2.2
+- Fixed a bug that caused a blank screen error in some environments.
+— Minor improvements.
+
+___
+Essentialist 1.2.1
+- Fixes and Improvements.
+
+___
+Essentialist 1.2
+- WordPress 5 compatibility.
+- 'Essentialist Gallery' block for Gutenberg.
+— 'Featured Image for Post Grids' field for better control over Masonry and grids in general.
+— Excerpt field symbols counter with a recommendation.
+
+___
+Essentialist 1.1
+- Navigation can nicely accommodate more items.
+- Navigation submenu fix.
+- Better Instagram thumbs experience.
+- Images in the lightbox can now be shared.
+- Option to keep the imperfect Jetpack Photon disabled.
+- Documentation has moved online.
+- Minor fixes and improvements.
+
+___
+Essentialist 1.0.1
+- Better custom logo experience.
+- Better related posts experience.
+- Minor fixes and improvements.
+
+___
+Essentialist 1.0.
+- Initial release.
