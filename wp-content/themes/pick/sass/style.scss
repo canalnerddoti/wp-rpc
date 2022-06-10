@@ -1,0 +1,164 @@
+/*
+Theme Name: Pick
+Theme URI: https://wpdemo.softhopper.net/pick-wp/
+Author: SoftHopper
+Author URI: http://softhopper.net
+Description: It\' s a blog theme. Which is a unique feature and user competitive feature.
+Version: 2.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: pick
+Tags:  two-columns, right-sidebar, left-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images,  post-formats, sticky-post, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Pick is based on Underscores http://underscores.me/, (C) 2012-2015 Automatic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Typography
+# Elements
+	## Post, Page, Comments Table
+# Forms
+# Navigation
+	## Links
+	## Menus
+	## Pagination
+	## Navigation responsive
+		### Mobile CSS
+		### Pagination responsive
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+#layouts
+	## Header Content
+		### Pre-Loader
+		### Site Header
+	## Featured Content
+	## Main Content
+		### Single Post Footer
+		### Single Post Navigation
+		### No results
+		### Category Section Heading
+		### Post Author Info 
+		### Related Post 
+		### ShortCode 
+	## Widget-content
+		### About widget
+		### Latest widget
+		### Popular widget
+		### Categories And Archive Widget
+		### TagCloud Widget
+		### Follow Us Widget
+		### About And Contact Widget
+		### Search Widget
+		### Advertisement Widget
+		### Calender Widget
+		### Links, Meta, NavMenu, Pages, 
+			Recent Comment, Recent Entries  Widget
+		### RSS Widget
+		### Text Widget
+		### Twitter Widget Plugin
+		### Email Subscribe Widget
+	## Footer Content
+		### Footer Top
+		### Footer Middle
+		### Footer Bottom
+	## Layout Responsive
+		### Header Responsive
+		### Featured Responsive
+		### Content Area Responsive
+		### Post author-info Responsive
+		### Footer Responsive
+# Site Content
+    ## Posts and pages
+    	### Page Heading
+    	### Post Meta
+    	### Post Format
+	## Asides
+	## Comments
+	## About Page
+	## Contact Page
+	## 404 Page
+	## Site Responsive
+		### Post Format Responsive
+		### Comment and Contact Form Responsive
+		### Contact Page Responsive
+		### 404 page Responsive
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+		### WordPress Default Gallery
+		### Post-gallery One
+		### Post-gallery Two
+		### Post Gallery Tiled
+--------------------------------------------------------------*/
+@import "variables-site/variables-site";
+@import "mixins/mixins-master";
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+@import "typography/typography";
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+@import "elements/elements";
+
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+@import "forms/forms";
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+@import "navigation/navigation";
+
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+@import "modules/accessibility";
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+@import "modules/alignments";
+
+/*--------------------------------------------------------------
+# Clearings
+--------------------------------------------------------------*/
+@import "modules/clearings";
+
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+@import "site/secondary/widgets";
+
+/*--------------------------------------------------------------
+# Layout
+--------------------------------------------------------------*/
+@import "layout/layout";
+
+/*--------------------------------------------------------------
+# Site Content
+--------------------------------------------------------------*/
+@import "site/site";
+
+/*--------------------------------------------------------------
+# Infinite scroll
+--------------------------------------------------------------*/
+@import "modules/infinite-scroll";
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+@import "media/media";
+

@@ -1,0 +1,417 @@
+.sticky {
+	display: block;
+}
+.hentry {
+	margin: 0 0 30px;
+}
+.page-content {
+	margin: 1.4em 0 1.4em;
+	p:last-child {
+		margin-bottom: 0;
+	}	
+}
+.entry-content {
+	@extend .page-content;
+}
+.entry-summary {
+	@extend .page-content;
+}
+.page-links {
+	clear: both;
+	margin: 0 0 2.1em;
+}
+/*--------------------------------------------------------------
+# Page Heading
+--------------------------------------------------------------*/
+.header-title {
+	text-align: center;
+	margin-bottom: 2.9em;
+	.section-title {
+		margin: 0.3em 0 0.4em;
+		text-transform: uppercase;
+	}
+}
+.page .entry-title {
+	margin-top: 0 !important;
+}
+
+/*--------------------------------------------------------------
+# Post Meta
+--------------------------------------------------------------*/
+.post-format {
+	font-size: 15px;
+	margin: 15px auto 0;
+	display: table;
+	font-family: Lora;
+	font-style: italic;
+	color: #525252;
+	font-weight: 600;
+}
+.entry-meta {
+	color: $color__meta;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: $font__body;
+	a {
+		color: inherit;
+	}
+	.cat-links:before {
+		content: "\f07c";
+		font-family: FontAwesome;
+	}
+	.author:before {
+		content: "\f007";
+		font-family: FontAwesome;	
+	}
+	.entry-date:before {
+		content: "\f073";
+		font-family: FontAwesome;
+	}
+	
+	span {
+		margin: 0 8px;
+	}
+	span:before {
+		margin-right: 8px;
+	}
+}
+.post-format + .entry-meta {
+	margin-top: 20px;
+}
+
+/*--------------------------------------------------------------
+# Post Format
+--------------------------------------------------------------*/
+.content-area {
+	.post {
+		background: $color__white;
+		border: 1px solid $color__border-four;
+		padding: 35px;
+		position: relative;
+		overflow: hidden;
+		.post-thumb {
+			overflow: hidden;
+		}
+	}
+	.page {
+		background: $color__white;
+		border: 1px solid $color__border-four;
+		padding: 35px;
+		position: relative;
+		overflow: hidden;
+		.post-thumb {
+			overflow: hidden;
+		}
+		.post-status-wrapper {
+			text-align: center;
+			iframe {
+				 margin: 10px auto !important;
+			}
+		}
+		.page-share {
+			text-align: center;
+			span {
+				font-size: 1.25em;
+				font-style: italic;
+				&:after {
+					content: "-";
+					position: relative;
+					vertical-align: middle;
+				}
+			}
+			a {
+				padding: 0 5px;
+			}
+		}
+	}
+	.type-attachment {
+		background: $color__white;
+		border: 1px solid $color__border-four;
+		padding: 1.9em;
+		position: relative;
+		.post-thumb {
+			overflow: hidden;
+		}
+	}
+	// Link Post Format
+	// ------------------------
+	.post-link {
+	    overflow: hidden;
+	    position: relative;
+	    z-index: 9;
+	}
+	.post-link-wrapper {
+	    background-color: rgba($color__white, 0.8);
+	    margin: 13px;
+	    padding: 30px 15px;
+	    position: relative;
+	    text-align: center;
+	    z-index: 9;
+		// .tb {
+		//     height: 100%;
+		// }
+		// .tb {
+		//     display: table;
+		//     table-layout: fixed;
+		//     width: 100%;
+		// }
+		.tb-cell {
+		    //display: table-cell;
+		    //vertical-align: middle;
+			> a {
+				display: block;
+				font-size: em(13px);
+				font-style: italic;
+				letter-spacing: 0.1em;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+				width: 100%;
+			}
+		}
+		h2 {
+		    font-size: em(24px);
+		    margin-top: 13px;
+		    text-transform: uppercase;
+		    word-spacing: 3px;
+		    font-weight: bold;
+		}
+		.fa {
+		    font-size: 20px;
+		}
+		~ .images {
+			height: 100%;
+			left: 0;
+			padding-top: 0;
+			position: absolute;
+			top: 0;
+			width: 100%;
+			z-index: -1;
+			overflow: hidden;
+			@include prefixed(transform, translateZ(0px));
+		}
+	}
+	.images img {
+	    left: 50%;
+	    max-width: none !important;
+	    position: absolute !important;
+	    top: 50%;
+	    transform: translate(-50%, -50%);
+	    width: 100%;
+	    height: 100%;
+	}
+	// Quote Post Format
+	// ------------------------
+	.format-quote {
+		.entry-header,
+		.entry-title,
+		.entry-meta {
+			display: none;
+		}
+		.entry-content {
+			margin: 0;
+		}
+		.quote-content {
+			margin: 0;
+			text-align: center;
+			i {
+				font-size: 17px;
+				color: $color__white;
+			}
+		}
+		.quote-icon {
+			background: #a7a7a7;
+			border: 4px solid #7e7e7e;
+			border-radius: 50px;
+			display: block;
+			height: 50px;
+			line-height: 42px;
+			text-align: center;
+			width: 50px;
+			margin: 0 auto 18px;
+		}
+		blockquote {
+			margin-left: 0 !important;
+			margin-bottom: 0;
+			border: 0;
+			padding: 0;
+			font-style: italic;
+			position: relative;
+			z-index: 100;
+			text-align: center;
+			font-size: 22px;
+			&:before {
+				content: "";
+				display: block;
+				height: auto;
+				left: 0;
+				right: 0;
+				margin-top: 0;
+				padding-top: 0;
+				top: 0; 
+			}
+			p {
+				padding: 0 1em;
+				margin-bottom: 10px;
+				position: relative;
+				&:first-child {
+					margin-top: 2em;
+				}
+				&:last-child {
+					margin-bottom: 0;
+				}
+				cite {
+					margin-left: 0;
+					padding-left: 0;
+				}
+			}
+			cite, a, span {
+			    padding: 0 1.2em;
+				font-size: 0.8em;
+				font-weight: 500;
+				font-style: normal;
+				position: relative;
+			}
+			cite::before {
+			    content: "";
+			    padding-right: 0;
+			}
+			footer {
+				margin-top: 15px;
+				margin-left: 0;
+			}
+			footer a {
+				font-size: 15px;
+				padding-left: 0;
+				font-style: italic;
+			}
+		}
+	}
+	// For Self Hosted Audio
+	// ----------------------
+	.format-audio {	
+		.post-media {
+		    overflow: hidden;
+		    position: relative;
+		    z-index: 9;
+		}
+		.post-media .audio-images ~ .post-audio-player {
+		    border: 0 none;
+		    bottom: 5px;
+		    left: 5px;
+		    position: absolute;
+		    right: 5px;
+		    z-index: 9;
+		}
+		.post-audio-player {
+			background: rgba($color__white, 0.8);
+			padding: 30px;
+			text-align: center;
+		}
+	}
+	.format-audio {
+		.entry-header {
+			position: relative;
+			@include prefixed(transform, translateY(0));
+		}
+	}
+	// Status Post Format
+	// ------------------------
+	.format-status {
+		.post-status-wrapper {
+			background-size: cover !important;
+			padding: 2.85em 0;
+			text-align: center;
+			overflow: hidden;
+			
+			.embed, iframe, object {
+				margin: 0 auto !important;
+			}
+		}
+	}
+	// Chat Post Format
+	// ------------------------
+	.format-chat {
+		.entry-content {
+			margin-bottom: 0;
+		}
+		.chat-transcript { 
+			padding: 5px 15px 30px; 
+		}
+		.chat-row { 
+		  	padding: 5px 0; 
+		  	clear: both; 
+		  	overflow: hidden;
+		  	p {
+		  		margin-bottom: 0 !important;
+		  		line-height: 1.4em;
+		  	}
+		  	cite {
+		  		font-style: normal; 
+			  	font-weight: bold; 
+		  	}
+		  	&:nth-child(2n+2) {
+				.chat-author {
+				  	float: right; 
+				  	padding: 10px  0 0 15px; 
+				}
+				.chat-text {
+				  	float: right;
+				  	background: $color__white;
+				  	border: 1px solid $color__border-four; 
+				  	&:before {
+					    float: right;
+					    margin: 5px -28px 0 0 ;
+					    border-right-color: transparent !important;	
+					    border-left-color: $color__border-four;	
+				  	}
+				}
+			}
+		}
+		.chat-author {
+		 	float: left; 
+		  	padding: 10px 15px 0 0;
+		}
+		.chat-text {
+		    padding: 10px 15px;
+		    max-width: 55%;
+		    float: left;
+		    background: $color__white;
+		    border: 1px solid $color__border-four;
+		    @include prefixed(border-radius, 2px);
+		    &:before {
+			    float: left;
+			    content: " ";
+			    display: block;
+			    width: 0;
+			    height: 0;
+			    margin: 5px 0 0 -28px;
+			    border: 6px solid transparent;
+			    border-right-color: $color__border-four;
+		    }
+		    a {
+		    	color: $color__white;
+		    	text-decoration: underline;
+		    }
+		    p .more-link {
+		    	display: none;
+		    }
+		}
+		#readmore-add {
+			margin-bottom: 38px;
+			margin-top: -30px;
+		}		
+	}
+	.grid .format-chat #readmore-add {
+		margin-bottom: 7px;
+	}
+	// For twitter-embed post
+	// ------------------------
+	.format-standard {
+		.entry-content {
+			.twitter-tweet.twitter-tweet-rendered {
+				margin: auto !important;
+			}
+		}
+	}
+}

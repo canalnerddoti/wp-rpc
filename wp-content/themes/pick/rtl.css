@@ -1,0 +1,275 @@
+/*
+Theme Name: Pick Wordpress
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+http://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+/* Menu */
+.menu-list {
+  	float: right;
+}
+.social-search {
+  	float: left;
+}
+.social-search > .top-social {
+  	float: right;
+  	margin-left: 20px;
+  	margin-right: 0;
+}
+.social-search > #top-search {
+  	float: left;
+}
+.menu-list > li {
+  	float: right;
+}
+.menu-submenu li a {
+	text-align: right;
+}
+.menu-list .menu-submenu .menu-submenu, 
+.menu-list .menu-submenu .menu-submenu .menu-submenu {
+	left: auto;
+	right: 100%;
+}
+.megamenu > .menu-submenu > li > a,
+.megamenu > .menu-submenu li ul li a {
+	text-align: right;
+}
+@media only screen and (min-width: 780px) {
+	.menu-list li .menu-submenu li a span {
+	  	left: 7px;
+	  	right: auto;
+	  	transform: rotate(90deg);
+	  	-webkit-transform: rotate(90deg);
+	}	
+}
+@media only screen and (max-width: 780px) {
+	.menuexpandermain #top-search {
+	  left: 15px;
+	  right: auto;
+	  top: 0;
+	}
+	.animated-arrow {
+	  left: 95px;
+	  right: auto;
+	}
+	#menu-marker {
+		margin-left: 0;
+		margin-right: 20px;
+	}
+	.menuexpandermain .menuopen {
+	  	left: 75% !important;
+	}
+	.top-menu .menu-list > li > a {
+		text-align: right;
+		padding: 9px 17px 9px 32px;
+	}
+	.menu-click {
+		left: 0;
+		right: auto;
+	} 
+	.menu-click i {
+		border-left: 0 none;
+		border-right: 1px solid #e6e6e6;
+	}
+	.menu-list .menu-submenu {
+		padding-left: 0;
+		padding-right: 15px;
+	}
+	.menu-list .menu-submenu li a {
+		white-space: normal !important;
+	}
+}
+/* Post Meta */
+.entry-meta span {
+  	margin: 0 10px;
+}
+.entry-meta .entry-date::before, 
+.entry-meta .author::before, 
+.entry-meta .cat-links::before {
+	position: absolute;
+	margin-right: -17px;
+}
+.entry-meta .cat-links {
+	padding-left: 8px;
+} 
+/* Post Footer */
+.content-area .entry-footer .comments-link::before, 
+.content-area .entry-footer .view-link::before, 
+.content-area .entry-footer .share-button::before {
+  	margin-right: -23px;
+  	position: absolute;
+}
+.content-area .entry-footer .share-button > span {
+  	margin-left: 8px;
+  	margin-right: 0;
+}
+/* Widget Area */
+.feed-wrapper .image-area {
+  	float: right;
+  	margin-left: 20px;
+ 	margin-right: 0;
+  	width: 65px;
+}
+.widget_categories ul li .count, 
+.widget_archive ul li .count {
+  	left: 0;
+  	right: auto;
+}
+.widget_tag_cloud .tagcloud a {
+  	float: right;
+}
+.widget_nav_menu .sub-menu, 
+.widget_pages .children {
+  margin-left: 0;
+  margin-right: 15px;
+}
+.widget_links ul li,
+.widget_meta ul li, 
+.widget_nav_menu ul li, 
+.widget_pages ul li, 
+.widget_recent_comments ul li, 
+.widget_recent_entries ul li {
+  	text-indent: -8px;
+}
+.widget_links ul li span::before, 
+.widget_links ul li a::before, 
+.widget_meta ul li span::before, 
+.widget_meta ul li a::before, 
+.widget_nav_menu ul li span::before, 
+.widget_nav_menu ul li a::before, 
+.widget_pages ul li span::before, 
+.widget_pages ul li a::before, 
+.widget_recent_comments ul li span::before, 
+.widget_recent_comments ul li a::before, 
+.widget_recent_entries ul li span::before, 
+.widget_recent_entries ul li a::before {
+	content: "";
+}
+.widget_pick_theme_login_form .pick-theme-login-form .pick-theme-login-board .left-thumb {
+  	float: right;
+  	margin-right: 0;
+  	margin-left: 20px;
+}
+.widget_pick_theme_login_form .pick-theme-login-form .pick-theme-login-board .right-details i {
+  	margin-left: 8px;
+  	margin-right: 0;
+}
+/* Paging Navigation */
+.navigation .nav-links > li:last-child {
+  	margin-right: 45px;
+  	margin-left: 0;
+}
+.navigation .nav-links > li:first-child {
+  	margin-left: 45px;
+  	margin-right: 0;
+}
+.navigation .nav-links li.nav-next > a::after {
+  	right: 0;
+  	left: auto;
+}
+.navigation .nav-links li.nav-previous > a::after {
+  	left: 0;
+  	right: auto;
+}
+.navigation .nav-links li.nav-previous a .fa-angle-double-left:before {
+	content: "\f101" !important;
+}
+.navigation .nav-links li.nav-next a .fa-angle-double-right:before {
+	content: "\f100" !important;
+}
+.navigation .nav-links li.nav-next a .fa-angle-double-right {
+	margin-left: 0;
+	margin-right: 6px;
+}
+.navigation .nav-links li.nav-previous a .fa-angle-double-left {
+	margin-left: 6px;
+	margin-right: 0;
+}
+
+/*Single Post*/
+.author-info #author-img {
+	border-left: 0 none;
+} 
+.author-info #author-details {
+	border-left: 1px solid #f0f0f0;
+}
+.author-info #author-footer .post-count {
+	float: right;
+}
+.author-info #author-footer .authors-social {
+	float: left;
+}
+.post-navigation .post-previous {
+  padding: 30px 45px 30px 10px;
+  text-align: right;
+}
+.post-navigation .post-next {
+  padding: 30px 10px 30px 45px;
+  text-align: left;
+}
+.post-navigation .post-previous i.fa,
+.post-navigation .post-next i.fa {
+  margin-top: -15px;
+  right: 15px;
+  left: auto;
+  top: 50%;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+}
+.post-navigation .post-next i.fa {
+	left: 15px !important;
+	right: auto !important;
+}
+.post-navigation .post-next {
+	border-left: 0 none;
+	border-right: 1px solid #f0f0f0;
+}
+.post-navigation .post-previous h3 {
+	margin-right: 15px;
+	margin-left: 0;
+}
+.post-navigation .post-next h3 {
+	margin-right: 0;
+	margin-left: 15px;
+}
+.comments-area .author-img {
+	float: right;
+	margin-left: 20px;
+	margin-right: 0;
+}
+.comments-area .children {
+  	margin-right: 108px;
+  	margin-left: 0;
+}
+.comments-area .comment-navigation .nav-links .nav-previous {
+  	float: right;
+}
+.comments-area .comment-navigation .nav-links .nav-next {
+  	float: left;
+}
+@media only screen and (max-width: 768px) {
+  .children {
+    	margin-left: 0 !important;
+    	margin-right: 40px !important;
+  }
+}
+
+/* About Page */
+.about-me #author-skill .skill-one.circliful {
+  	float: right;
+  	margin-left: 20px;
+  	margin-right: -8px;
+}
+.about-me #author-skill .ex-small-border::after {
+  	left: auto;
+  	right: 0;
+}

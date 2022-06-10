@@ -1,0 +1,119 @@
+body {
+	background: $color__background-main; /* Fallback for when there is no custom background color defined. */
+	word-wrap: break-word;
+	overflow-x: hidden;
+}
+
+q {
+	quotes: "" "";
+
+	&:before,
+	&:after {
+		content: "";
+	}
+}
+
+blockquote {
+	border: 0;
+	font-style: italic;
+	font-size: $heading__four;
+	position: relative;
+	z-index: 100;
+	border-left: 5px solid $color__border-one;
+	font-family: 'Lora';
+	p {
+		padding: 0;
+		margin-bottom: 15px;
+		position: relative;
+		&:last-child {
+			margin-bottom: 0;
+		}
+		cite {
+			margin-left: 0;
+			padding-left: 0;
+		}
+	}
+	cite, a, span {
+	    padding: 0;
+		font-size: 0.8em;
+		font-weight: 500;
+		font-style: normal;
+		position: relative;
+	}
+	cite {
+		display: block;
+	}
+	cite::before {
+	    content: "--";
+	    padding-right: 5px;
+	}
+	footer {
+		margin-left: 0;
+	}
+}
+.wp-block-pullquote {
+	blockquote {
+		border-left: 0 none !important;
+	}
+}
+.single-post {
+	blockquote {
+		margin: 1.5em 0;
+	}
+}
+
+@import "lists";
+
+img {
+	height: auto; /* Make sure images are scaled correctly. */
+	max-width: 100%; /* Adhere to container width. */
+}
+
+@import "tables";
+
+/* Overlay */
+
+.hr-line {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid $color__border-four;
+}
+.devider {
+	padding: 0 20px;
+}
+/* Some border */
+.small-border {
+    display: block;
+    height: 2px;
+    margin: 0.5em 0.8em;
+    width: 90px;
+}
+.ex-small-border {
+    display: block;
+    height: 1px;
+    margin: 0.5em auto 0.8em;
+    width: 200px;
+    background: $color__border-dark;
+    position: relative;
+    &:after {
+		content: "";
+		height: 3px;
+		left: 50%;
+		margin-left: -38px;
+		position: absolute;
+		top: -1px;
+		width: 80px;
+		background: #505050;
+    }	
+}
+
+.border {
+	height: 3px;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	right: 0;
+	top: 40px;
+	width: 60px;
+}

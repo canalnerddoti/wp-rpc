@@ -1,0 +1,154 @@
+button {
+    font-size: 11px;
+    padding: 12px 35px;
+	color: $color__white;
+	line-height: normal;
+	@include prefixed(transition, all .25s ease);
+}
+input[type="button"] {
+	@extend button;
+}
+input[type="reset"] {
+	@extend button;
+}
+input[type="submit"] {
+	@extend button;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: $color__text-main;
+	color: $color__white;
+	&:hover {
+		color: $color__white;
+	}
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	cursor: pointer;
+	-webkit-appearance: button;
+	&:focus {
+		outline: none;
+	}	
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+button {
+	a {
+		color: $color__white;
+	}
+}
+
+.btn {
+	@include prefixed(border-radius, 0);
+	&:hover {
+		color: $color__white;
+		text-decoration: none;		
+	}
+	&:focus {
+		@extend .btn:hover;
+		outline: 0 none;
+	}
+	&:active:focus {
+		outline: 0 none;
+	}
+}
+.btn-default {
+	color: $color__text-main;
+	&:hover {
+		color: $color__text-main;
+	}
+}
+// .more-link {
+// 	position: relative;
+// 	font-size: 13px;
+// 	font-weight: bold;
+// 	text-transform: uppercase;
+// 	word-spacing: 0.2em;
+// 	color: $color__heading !important;
+// 	display: table;
+// 	margin: 25px auto 0;
+// 	@include prefixed(transform, translateZ(0));
+// 	@include prefixed(backface-visibility, hidden);
+// 	&:after {
+// 		background: red;
+// 		content: "";
+// 		height: 2px;
+// 		left: 0;
+// 		margin: auto;
+// 		position: absolute;
+// 		right: 0;
+// 		top: 30px;
+// 		width: 75px;
+// 		@include prefixed(transition, width 0.3s ease 0s);
+// 	}
+// 	&:hover {
+// 		text-decoration: none !important;
+// 		&:after {
+// 			width: 85px;
+// 		}
+// 	}
+// }
+.entry-content {
+	// .more-link:after {
+	// 	top: 29px;
+	// }
+}
+.comment-reply-link {
+	padding: 3px 20px 2px;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: inline-block;
+	background: $color__text-main;
+	color: $color__white;
+	@include prefixed(transition, background ease 0.25s);
+	&:hover, &:focus, &:active:focus {
+		color: $color__white;
+	}
+}
+.comment-navigation {
+	.nav-links {
+		a {
+			background: $color__white;
+			display: inline-block;
+			padding: 0.5em 1.8em;
+			letter-spacing: 0.02em;
+			&:hover {
+				color: $color__white;
+			}
+		}	
+	}
+}
+.go-button {
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: inline-block;
+	width: 198px;
+	height: 45px;
+	line-height: 44px;
+	border: 1px solid;
+	color: $color__white;
+	background: #505050;
+	&:hover {
+		color: $color__white;
+	}
+}
+
+.entry-content {
+	.btn {
+		@include prefixed(border-radius, 1px);
+		letter-spacing: 0;
+		line-height: 1.7em;
+	}
+}
+
+.mfp-wrap {
+	button:hover {
+		background: transparent !important;
+	}
+}

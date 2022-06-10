@@ -1,0 +1,1960 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Pick\n"
+"POT-Creation-Date: 2019-05-21 01:47+0600\n"
+"PO-Revision-Date: 2019-05-21 01:47+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:21
+msgid "404"
+msgstr ""
+
+#: 404.php:33
+msgid "Go to Homepage"
+msgstr ""
+
+#: 404.php:48
+msgid "Contact"
+msgstr ""
+
+#: aboutme-page.php:27
+msgid "Author Img"
+msgstr ""
+
+#: aboutme-page.php:58
+msgid "Sign"
+msgstr ""
+
+#: aboutme-page.php:66
+msgid "Follow me:"
+msgstr ""
+
+#: aboutme-page.php:87
+#: inc/libs/redux-framework/redux-extensions-loader/extensions/softhopper_slides_skill/softhopper_slides_skill/field_softhopper_slides_skill.php:69
+msgid "Skill"
+msgstr ""
+
+#: comments.php:27 inc/functions/template-tags.php:426
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:27 inc/functions/template-tags.php:426
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:27 inc/functions/template-tags.php:426
+msgid "Comments"
+msgstr ""
+
+#: comments.php:43
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:50
+msgid "<span>&laquo;</span> Older Comments"
+msgstr ""
+
+#: comments.php:51
+msgid "Newer Comments <span>&raquo;</span>"
+msgstr ""
+
+#: comments.php:62
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:47
+msgid "Footer "
+msgstr ""
+
+#: functions.php:47
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:125
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr ""
+
+#: header.php:66
+msgid "Looking for something?"
+msgstr ""
+
+#: header.php:71 searchform.php:11
+msgid "Search here &hellip;"
+msgstr ""
+
+#: header.php:115
+msgid "Menu"
+msgstr ""
+
+#: inc/functions/extras.php:52
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/functions/popular-post.php:34
+msgid "0 View"
+msgstr ""
+
+#: inc/functions/popular-post.php:36
+msgid " Views"
+msgstr ""
+
+#: inc/functions/register-widgets.php:9
+msgid "Sidebar Home Page"
+msgstr ""
+
+#: inc/functions/register-widgets.php:11
+msgid "This sidebar is only for home page"
+msgstr ""
+
+#: inc/functions/register-widgets.php:18
+msgid "Sidebar Default"
+msgstr ""
+
+#: inc/functions/register-widgets.php:20
+msgid ""
+"This sidebar is for single post, single page, archive page and others pages."
+msgstr ""
+
+#: inc/functions/register-widgets.php:29
+#, php-format
+msgid "Footer %d"
+msgstr ""
+
+#: inc/functions/sh-pick-nav-walker.php:193
+#: inc/functions/sh-pick-nav-walker.php:201
+msgid "Add a menu"
+msgstr ""
+
+#: inc/functions/template-tags.php:23
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/functions/template-tags.php:27
+msgid "Older posts"
+msgstr ""
+
+#: inc/functions/template-tags.php:31
+msgid "Newer posts"
+msgstr ""
+
+#: inc/functions/template-tags.php:56
+msgid "Post navigation"
+msgstr ""
+
+#: inc/functions/template-tags.php:106
+msgid "Previous"
+msgstr ""
+
+#: inc/functions/template-tags.php:110
+msgid " No Post"
+msgstr ""
+
+#: inc/functions/template-tags.php:136 inc/functions/wordpress-override.php:134
+msgid "&hellip;"
+msgstr ""
+
+#: inc/functions/template-tags.php:144
+msgid "Next"
+msgstr ""
+
+#: inc/functions/template-tags.php:148
+msgid "No Post"
+msgstr ""
+
+#: inc/functions/template-tags.php:253
+msgid "Tagged In:"
+msgstr ""
+
+#: inc/functions/template-tags.php:280 template-parts/content-featured.php:59
+msgid "In: "
+msgstr ""
+
+#: inc/functions/template-tags.php:303
+msgid "By"
+msgstr ""
+
+#: inc/functions/template-tags.php:305
+msgid "By: "
+msgstr ""
+
+#: inc/functions/template-tags.php:340
+msgid "By "
+msgstr ""
+
+#: inc/functions/template-tags.php:437
+msgid "Share&nbsp;:&nbsp;&nbsp;"
+msgstr ""
+
+#: inc/functions/template-tags.php:471
+msgid "Share "
+msgstr ""
+
+#: inc/functions/template-tags.php:505
+msgid "<span>Browsing Category</span>"
+msgstr ""
+
+#: inc/functions/template-tags.php:505 inc/functions/template-tags.php:507
+#: inc/functions/template-tags.php:509 inc/functions/template-tags.php:511
+#: inc/functions/template-tags.php:513 inc/functions/template-tags.php:515
+#: inc/functions/template-tags.php:537
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: inc/functions/template-tags.php:507
+msgid "<span>Browsing Tag</span>"
+msgstr ""
+
+#: inc/functions/template-tags.php:509
+msgid "<span>Browsing Author</span>"
+msgstr ""
+
+#: inc/functions/template-tags.php:511
+msgid "<span>Browsing Year</span>"
+msgstr ""
+
+#: inc/functions/template-tags.php:511
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/functions/template-tags.php:513
+msgid "<span>Browsing Month</span>"
+msgstr ""
+
+#: inc/functions/template-tags.php:513
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: inc/functions/template-tags.php:515
+msgid "<span>Browsing Day</span>"
+msgstr ""
+
+#: inc/functions/template-tags.php:515
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: inc/functions/template-tags.php:518 inc/functions/template-tags.php:520
+#: inc/functions/template-tags.php:522 inc/functions/template-tags.php:524
+#: inc/functions/template-tags.php:526 inc/functions/template-tags.php:528
+#: inc/functions/template-tags.php:530 inc/functions/template-tags.php:532
+#: inc/functions/template-tags.php:534
+msgid "<span>Browsing Post Format</span>"
+msgstr ""
+
+#: inc/functions/template-tags.php:518
+msgctxt "post format archive title"
+msgid "Aside"
+msgstr ""
+
+#: inc/functions/template-tags.php:520
+msgctxt "post format archive title"
+msgid "Gallery"
+msgstr ""
+
+#: inc/functions/template-tags.php:522
+msgctxt "post format archive title"
+msgid "Image"
+msgstr ""
+
+#: inc/functions/template-tags.php:524
+msgctxt "post format archive title"
+msgid "Video"
+msgstr ""
+
+#: inc/functions/template-tags.php:526
+msgctxt "post format archive title"
+msgid "Quote"
+msgstr ""
+
+#: inc/functions/template-tags.php:528
+msgctxt "post format archive title"
+msgid "Link"
+msgstr ""
+
+#: inc/functions/template-tags.php:530
+msgctxt "post format archive title"
+msgid "Status"
+msgstr ""
+
+#: inc/functions/template-tags.php:532
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr ""
+
+#: inc/functions/template-tags.php:534
+msgctxt "post format archive title"
+msgid "Chat"
+msgstr ""
+
+#: inc/functions/template-tags.php:537
+msgid "<span>Browsing Archives</span>"
+msgstr ""
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/functions/template-tags.php:541
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: inc/functions/template-tags.php:543
+msgid "Browsing Archives"
+msgstr ""
+
+#: inc/functions/wordpress-override.php:66
+#: inc/functions/wordpress-override.php:134
+msgid "Continue Reading"
+msgstr ""
+
+#: inc/functions/wp-comment-section-override.php:9
+msgid "Your Name"
+msgstr ""
+
+#: inc/functions/wp-comment-section-override.php:13
+msgid "Your Email"
+msgstr ""
+
+#: inc/functions/wp-comment-section-override.php:17
+msgid "Got a Website?"
+msgstr ""
+
+#: inc/functions/wp-comment-section-override.php:31
+msgid "<span>Leave a Reply</span>"
+msgstr ""
+
+#: inc/functions/wp-comment-section-override.php:32
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: inc/functions/wp-comment-section-override.php:33
+msgid "Cancel Reply"
+msgstr ""
+
+#: inc/functions/wp-comment-section-override.php:36
+msgid "Submit"
+msgstr ""
+
+#: inc/functions/wp-comment-section-override.php:37
+msgid "Your Comment here&hellip;"
+msgstr ""
+
+#. translators: 1: date, 2: time
+#: inc/functions/wp-comment-section-override.php:75
+msgid "at"
+msgstr ""
+
+#: inc/functions/wp-comment-section-override.php:75
+msgid "(Edit)"
+msgstr ""
+
+#: inc/functions/wp-comment-section-override.php:88
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:71
+msgid "Format Details"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:83
+msgid "You can change gallery style from here"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:94
+msgid "Add your gallery images"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:95
+msgid "Image size should 750x338"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:102
+msgid "Audio background for self hosted"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:108
+msgid "Upload Audio File"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:109
+msgid "file format should Mp3, Ogg or M4a"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:115
+msgid "OR"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:121
+msgid "SoundCloud URL"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:127
+msgid "Video embed code"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:133
+msgid "Youtube / Vimeo / Dailymotion Video Url"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:139
+msgid "Or Self Hosted Video"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:145
+msgid "Upload Video File"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:146
+msgid "file format should Mp4, Ogv or Mov"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:152
+msgid "Quote"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:158
+msgid "Author"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:164
+#: inc/libs/redux-framework/redux-extensions-loader/extensions/softhopper_slides/softhopper_slides/field_softhopper_slides.php:155
+#: inc/libs/redux-framework/redux-extensions-loader/extensions/softhopper_slides/softhopper_slides/field_softhopper_slides.php:209
+#: inc/libs/redux-framework/redux-extensions-loader/extensions/softhopper_slides_skill/softhopper_slides_skill/field_softhopper_slides_skill.php:155
+#: inc/libs/redux-framework/redux-extensions-loader/extensions/softhopper_slides_skill/softhopper_slides_skill/field_softhopper_slides_skill.php:209
+msgid "URL"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:170
+msgid "Status Background Image"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:176
+msgid "Select Status Type"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:183
+msgid "Facebook"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:184
+msgid "Twitter"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:185
+msgid "Google Plus"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:186
+msgid "Instagram"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:190
+msgid "Facebook Status URL"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:195
+msgid "Twitter Status URL"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:200
+msgid "Google Plus Status URL"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:205
+msgid "Instagram Status Embed Code"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:210
+msgid "Link Background"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:215
+msgid "Link"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:221
+msgid "Text"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:228
+msgid "Display Settings"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:247
+msgid "You can change layout"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:257
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:258
+msgid ""
+"Write your custom CSS code here without &lt;style&gt; &lt;/style&gt; tag "
+"block"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:263
+msgid "Custom JS"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:264
+msgid ""
+"Write your custom JS code here without &lt;script&gt; &lt;/script&gt; tag "
+"block"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:285
+msgid "User Profile Metabox"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:292
+msgid "Extra Info"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:299
+msgid "Author Position"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:300
+msgid "This info will show in post author theme area"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:310
+msgid "Social Link {#}"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:311
+msgid "Add New Social Link"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:312
+msgid "Remove Social Link"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:317
+msgid "Font awesome icon class"
+msgstr ""
+
+#: inc/libs/cmb2/cmb2-config.php:323
+msgid "Social link url"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-extensions-loader/extensions/softhopper_chat_bg/softhopper_chat_bg/field_softhopper_chat_bg.php:91
+msgid "Speaker One"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-extensions-loader/extensions/softhopper_chat_bg/softhopper_chat_bg/field_softhopper_chat_bg.php:95
+msgid "Speaker Two"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-extensions-loader/extensions/softhopper_chat_bg/softhopper_chat_bg/field_softhopper_chat_bg.php:99
+msgid "Speaker Three"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-extensions-loader/extensions/softhopper_chat_bg/softhopper_chat_bg/field_softhopper_chat_bg.php:103
+msgid "Speaker Four"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-extensions-loader/extensions/softhopper_chat_bg/softhopper_chat_bg/field_softhopper_chat_bg.php:107
+msgid "Speaker Five"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-extensions-loader/extensions/softhopper_chat_bg/softhopper_chat_bg/field_softhopper_chat_bg.php:111
+msgid "Speaker Six"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-extensions-loader/extensions/softhopper_slides/softhopper_slides/field_softhopper_slides.php:69
+msgid "Social Link"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-extensions-loader/extensions/softhopper_slides/softhopper_slides/field_softhopper_slides.php:74
+#: inc/libs/redux-framework/redux-extensions-loader/extensions/softhopper_slides_skill/softhopper_slides_skill/field_softhopper_slides_skill.php:74
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-extensions-loader/extensions/softhopper_slides/softhopper_slides/field_softhopper_slides.php:127
+#: inc/libs/redux-framework/redux-extensions-loader/extensions/softhopper_slides/softhopper_slides/field_softhopper_slides.php:190
+#: inc/libs/redux-framework/redux-extensions-loader/extensions/softhopper_slides_skill/softhopper_slides_skill/field_softhopper_slides_skill.php:127
+#: inc/libs/redux-framework/redux-extensions-loader/extensions/softhopper_slides_skill/softhopper_slides_skill/field_softhopper_slides_skill.php:190
+msgid "Upload"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-extensions-loader/extensions/softhopper_slides/softhopper_slides/field_softhopper_slides.php:134
+#: inc/libs/redux-framework/redux-extensions-loader/extensions/softhopper_slides/softhopper_slides/field_softhopper_slides.php:192
+#: inc/libs/redux-framework/redux-extensions-loader/extensions/softhopper_slides_skill/softhopper_slides_skill/field_softhopper_slides_skill.php:134
+#: inc/libs/redux-framework/redux-extensions-loader/extensions/softhopper_slides_skill/softhopper_slides_skill/field_softhopper_slides_skill.php:192
+msgid "Remove"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-extensions-loader/extensions/softhopper_slides/softhopper_slides/field_softhopper_slides.php:146
+#: inc/libs/redux-framework/redux-extensions-loader/extensions/softhopper_slides/softhopper_slides/field_softhopper_slides.php:202
+#: inc/libs/redux-framework/redux-extensions-loader/extensions/softhopper_slides_skill/softhopper_slides_skill/field_softhopper_slides_skill.php:146
+#: inc/libs/redux-framework/redux-extensions-loader/extensions/softhopper_slides_skill/softhopper_slides_skill/field_softhopper_slides_skill.php:202
+msgid "Title"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-extensions-loader/extensions/softhopper_slides/softhopper_slides/field_softhopper_slides.php:151
+#: inc/libs/redux-framework/redux-extensions-loader/extensions/softhopper_slides/softhopper_slides/field_softhopper_slides.php:206
+#: inc/libs/redux-framework/redux-extensions-loader/extensions/softhopper_slides_skill/softhopper_slides_skill/field_softhopper_slides_skill.php:151
+#: inc/libs/redux-framework/redux-extensions-loader/extensions/softhopper_slides_skill/softhopper_slides_skill/field_softhopper_slides_skill.php:206
+msgid "Description"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-extensions-loader/extensions/softhopper_slides/softhopper_slides/field_softhopper_slides.php:169
+#: inc/libs/redux-framework/redux-extensions-loader/extensions/softhopper_slides/softhopper_slides/field_softhopper_slides.php:222
+#: inc/libs/redux-framework/redux-extensions-loader/extensions/softhopper_slides_skill/softhopper_slides_skill/field_softhopper_slides_skill.php:169
+#: inc/libs/redux-framework/redux-extensions-loader/extensions/softhopper_slides_skill/softhopper_slides_skill/field_softhopper_slides_skill.php:222
+msgid "Delete"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-extensions-loader/extensions/softhopper_slides/softhopper_slides/field_softhopper_slides.php:225
+#: inc/libs/redux-framework/redux-extensions-loader/extensions/softhopper_slides_skill/softhopper_slides_skill/field_softhopper_slides_skill.php:225
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:77
+#: inc/libs/redux-framework/redux-framework-config.php:78
+msgid "Pick Setting Options"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:182
+msgid "Documentation"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:188
+msgid "Support"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:194
+msgid "Extensions"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:244
+msgid "Theme Information 1"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:245
+#: inc/libs/redux-framework/redux-framework-config.php:250
+msgid "This is the tab content, HTML is allowed."
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:249
+msgid "Theme Information 2"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:256
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:286
+msgid "General Options"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:294
+msgid "Pick Hidden Slider"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:299
+msgid "Site Preloader"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:308
+msgid "Preloader Logo"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:309
+msgid "This logo image will show in preloader"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:320
+msgid "Preloader logo for retina "
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:321
+msgid ""
+"2x logo size, for screens with high DPI.\n"
+"                    Use the exact same filename and add @2x after the name. "
+"example: preloader@2x.png"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:330
+msgid "Preloader Animated Icon"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:331
+msgid "This animated icon will show in preloader"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:341
+msgid ""
+"These animated icon used from font awesome. See demo <a target='_blank' "
+"href='http://fortawesome.github.io/Font-Awesome/examples/'>here</a> from "
+"Animated Icons List"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:349
+msgid "Favicon"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:359
+msgid "Apple iPhone Icon"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:360
+msgid "Icon for Apple iPhone (57px X 57px)"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:371
+msgid "Apple iPhone Retina Icon"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:372
+msgid "Icon for Apple iPhone Retina (114px X 114px)"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:383
+msgid "Apple iPad Icon"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:384
+msgid "Icon for Apple iPad (72px X 72px)"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:395
+msgid "Apple iPad Retina Icon"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:396
+msgid "Icon for Apple iPad Retina (144px X 144px)"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:404
+msgid "Custom CSS Code"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:405
+msgid "Paste your CSS code here."
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:413
+msgid "Custom JS Code"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:414
+msgid "Paste your JS code here."
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:424
+msgid "Layout"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:431
+#: inc/libs/redux-framework/redux-framework-config.php:1472
+msgid "Default Layout"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:432
+msgid "Default layout for whole site"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:452
+msgid "Default Post Layout"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:453
+msgid "Default layout post"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:473
+msgid "Single Layout"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:474
+msgid "Default layout of single post"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:494
+msgid "Page Layout"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:495
+msgid "Default layout of single page "
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:515
+msgid "Archive Layout"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:516
+msgid "Default layout of category, archive, tag page and search page "
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:536
+msgid "Archive Post Layout"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:537
+msgid ""
+"Default layout of category, archive, tag page, author and search page post"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:555
+msgid "Typography"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:562
+msgid "Body Font"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:563
+msgid "You can Specify the body font properties."
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:592
+msgid "All Main Post &amp; Page Title"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:593
+msgid "You can Specify the all post and page title font properties."
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:620
+msgid "Heading h1 Font"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:621
+msgid "You can Specify the heading h1 font properties."
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:648
+msgid "Heading h2 Font"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:649
+msgid "You can Specify the heading h2 font properties."
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:676
+msgid "Heading h3 Font"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:677
+msgid "You can Specify the heading h3 font properties."
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:704
+msgid "Heading h4 Font"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:705
+msgid "You can Specify the heading h4 font properties."
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:732
+msgid "Heading h5 Font"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:733
+msgid "You can Specify the heading h5 font properties."
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:761
+msgid "Heading h6 Font"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:762
+msgid "You can Specify the heading h6 font properties."
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:789
+msgid "Color Options"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:796
+msgid "Color Scheme"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:797
+msgid "Select Predefined Color Schemes or your Own"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:814
+msgid "Your Own Theme Color"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:815
+msgid "Pick a custom color"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:825
+msgid "Header Section"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:832
+msgid "Header Background Image"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:833
+msgid "This image will show in header banner area"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:842
+msgid "Header Background Image Overlay"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:843
+msgid "This overlay color work when you add header images"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:852
+msgid "Header Background Color"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:853
+msgid "This color will show in header banner area if image not load or set"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:859
+msgid "Display Header Logo"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:860
+msgid ""
+"If you off header logo then site title and description will show instead of "
+"logo"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:866
+msgid "Header Logo"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:867
+msgid "This image will show as a logo in header banner area"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:878
+msgid "Header Logo for retina"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:879
+msgid ""
+"2x logo size, for screens with high DPI.\n"
+"                    Use the exact same filename and add @2x after the name. "
+"example: logo@2x.png"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:892
+msgid "Header logo padding"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:893
+msgid "You can increase or decrease header logo padding"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:905
+msgid "Main menu right social link"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:911
+#: inc/libs/redux-framework/redux-framework-config.php:1216
+msgid ""
+"Font Awesome Icon Class, ex: fa-search. Get the full list <a target='_blank' "
+"href='http://fortawesome.github.io/Font-Awesome/cheatsheet/'>Here</a>"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:913
+#: inc/libs/redux-framework/redux-framework-config.php:1218
+msgid "Add font awesome Icon Class"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:914
+#: inc/libs/redux-framework/redux-framework-config.php:1219
+msgid "Social Icon Url"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:944
+msgid "Featured Post"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:951
+msgid "Display Featured Post"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:957
+msgid "Show Featured Post In Post"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:958
+msgid ""
+"If your want you can show featured post in Post. Post show in both place"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:964
+msgid "Number of featured post"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:965
+msgid "How many featured post you want to show"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:975
+msgid "Featured Post In Slider"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:976
+msgid "How many words you want to show in featured post excerpt"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:986
+msgid "Featured Post Auto Slide"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:992
+msgid "Featured post slide speed"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:993
+msgid "How fast featured post slide you can modified from here"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1003
+msgid "Featured autoplay timeout"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1004
+msgid ""
+"When auto slide remain true you can define here how many times later "
+"featured post will slide"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1016
+msgid "Post Settings"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1023
+msgid "Excerpt Status"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1024
+msgid "If you off excerpt status always show full post"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1030
+msgid "Default Excerpt Length"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1031
+msgid "How many words you want to show in post excerpt"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1042
+msgid "Default Sticky Post Excerpt Length"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1043
+msgid "How many words you want to show in sticky post excerpt"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1054
+msgid "Post Format"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1055
+msgid "You can show or hide post format meta up of post title"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1062
+msgid "Post Header Meta"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1063
+msgid "Whose meta you want to show in post header?"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1065
+msgid "Category Meta"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1066
+msgid "Author Meta"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1067
+msgid "Date Meta"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1078
+msgid "Author Info Box"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1079
+msgid "You can show or hide author info box"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1085
+msgid "Tiled Gallery Row Height"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1086
+msgid "This is for tiled gallery post"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1092
+msgid "Related Posts Settings"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1098
+msgid "Related Posts"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1099
+msgid "You can show or hide related posts"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1105
+msgid "Number of posts to show"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1115
+msgid "Query Type"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1116
+msgid "Show related by this query type"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1133
+msgid "Infinity Scroll Settings"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1139
+msgid "Infinity Scroll"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1140
+msgid ""
+"You can off or on infinity scroll (Note: Infinity Scroll only for Post "
+"Layout grid or grid three not work in list post layout)"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1146
+msgid "Infinity Scroll Image"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1147
+msgid "This image will show when infinity scroll not load"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1164
+msgid "About Me Page"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1170
+msgid "Author Image"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1171
+#: inc/libs/redux-framework/redux-framework-config.php:1201
+msgid "This image will show in the navigation"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1180
+msgid "Author Name"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1181
+msgid "This author will show in about page below author image"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1187
+msgid "Author description"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1200
+msgid "Author Singnature"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1210
+msgid "Add Follow Link"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1247
+msgid "Add author skills"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1253
+msgid "Add your skills for about page skill section"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1255
+msgid "Add skill name"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1256
+msgid "Add skill percent"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1290
+msgid "Contact Page"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1296
+msgid "Latitude"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1297
+msgid ""
+"You can get Latitude and Longitude from <a href='http://www.latlong."
+"net/'>latlong.net</a>"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1303
+msgid "Longitude"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1309
+msgid "Map Mouse Wheel"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1315
+msgid "Map zoomControl"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1321
+msgid "Contact Map Point Image"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1322
+msgid "This image will show in the google map of your location point"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1331
+msgid "Contact Subtitle"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1340
+msgid "Contact Address Main"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1346
+msgid "Contact Description"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1355
+msgid "Contact Form 7 Shortcode"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1364
+msgid "Search Page"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1370
+msgid "Search only post"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1371
+msgid ""
+"If you on this option query search form post. Otherwise query search form "
+"post and pages."
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1377
+msgid "Search form"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1378
+msgid "Show search form in search page"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1386
+msgid "Footer Section"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1393
+msgid "Enable Instagram Feed On Footer"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1394
+msgid "You can off or on footer Instagram feed content"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1400
+msgid "Instagram Feed Title"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1407
+msgid "Instagram User Name"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1414
+msgid "Instagram Photo Item"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1415
+msgid "How many Instagram photo you want to show"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1426
+msgid "Instagram Column"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1427
+msgid "How many Instagram photo column you want to show"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1438
+msgid "Instagram Image Size"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1442
+msgid "Thumbnail"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1443
+msgid "Small"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1444
+msgid "Large"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1445
+msgid "Original"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1452
+msgid "Instagram Image Open In"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1456
+msgid "Current window (_self)"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1457
+msgid "New window (_blank)"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1464
+msgid "Enable Footer Widget"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1465
+msgid "You can off or on footer widgets"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1473
+msgid "How many sidebar you want to show on footer"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1497
+msgid "Footer Copyright Info"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1515
+msgid "404 Settings"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1522
+msgid "404  Image"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1523
+msgid "This image will show in 404 page"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1534
+msgid "404  image for retina"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1535
+msgid ""
+"2x logo size, for screens with high DPI.\n"
+"                    Use the exact same filename and add @2x after the name. "
+"example: 404@2x.png"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1648
+msgid "Section via hook"
+msgstr ""
+
+#: inc/libs/redux-framework/redux-framework-config.php:1649
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array. Can be used by child themes to add/remove sections from the "
+"options.</p>"
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:393
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:851
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2557
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:3604
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:394
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:3183
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:395
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2976
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:546
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:547
+msgid "Update Required"
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:958
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:958
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:961
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:961
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:1145
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2972
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2006
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2297
+msgid "Required"
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2300
+msgid "Recommended"
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2316
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2319
+msgid "External Source"
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2322
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2339
+msgid "Not Installed"
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2343
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2345
+msgid "Active"
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2351
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2354
+msgid "Requires Update"
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2357
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2366
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2412
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2416
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2420
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2424
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2506
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2514
+msgid "Installed version:"
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2522
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2534
+msgid "Available version:"
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2557
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2571
+msgid "Plugin"
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2572
+msgid "Source"
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2573
+msgid "Type"
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2577
+msgid "Version"
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2578
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2627
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2632
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2638
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2708
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2741
+msgid "Install"
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2747
+msgid "Update"
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2750
+msgid "Activate"
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2781
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2783
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2824
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2826
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2932
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:2958
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:3182
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:3522
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:3525
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:3527
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:3531
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:3533
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:3533
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:3541
+msgid "Show Details"
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:3533
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:3541
+msgid "Hide Details"
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:3534
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:3536
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:3539
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:3541
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:3542
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/libs/tgm-plugin-activation/class-tgm-plugin-activation.php:3544
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: search.php:26
+msgid "Search Results for:"
+msgstr ""
+
+#: template-parts/content-aside.php:20
+msgid "In Aside"
+msgstr ""
+
+#: template-parts/content-audio.php:80 template-parts/content-chat.php:63
+#: template-parts/content-gallery.php:175 template-parts/content-status.php:139
+#: template-parts/content.php:102
+msgid "(Edit Post)"
+msgstr ""
+
+#: template-parts/content-audio.php:94 template-parts/content-chat.php:86
+#: template-parts/content-gallery.php:189 template-parts/content-page.php:42
+#: template-parts/content-status.php:153 template-parts/content.php:114
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-authorinfo.php:33
+msgid " Total Posts"
+msgstr ""
+
+#: template-parts/content-authorinfo.php:33
+msgid " Total Post"
+msgstr ""
+
+#: template-parts/content-authorinfo.php:41
+msgid "Follow Me"
+msgstr ""
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:27
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:34
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:37
+msgid "(Edit Page)"
+msgstr ""
+
+#: template-parts/content-pagination.php:23
+msgid "Previous Post"
+msgstr ""
+
+#: template-parts/content-pagination.php:29
+msgid "Next Post"
+msgstr ""
+
+#: template-parts/content-pagination.php:38
+msgid "Previous Page"
+msgstr ""
+
+#: template-parts/content-pagination.php:44
+msgid "Next Page"
+msgstr ""
+
+#: template-parts/content-quote.php:22
+msgid "In Quote"
+msgstr ""
+
+#: template-parts/content-relatedpost.php:35
+msgid "Related Post"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Pick"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://wpdemo.softhopper.net/pick-wp/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"It\\' s a blog theme. Which is a unique feature and user competitive feature."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "SoftHopper"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://softhopper.net"
+msgstr ""

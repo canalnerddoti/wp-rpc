@@ -1,0 +1,112 @@
+/*--------------------------------------------------------------
+# Post Format Responsive
+--------------------------------------------------------------*/
+@media only screen and (max-width:768px) {
+	.content-area .format-quote .quote-thumb .quote-content {
+		padding: 2.8em 1em 1.2em !important;
+	}
+	.content-area .format-quote .quote-thumb .quote-content::before {
+		top: 16px;
+	}
+}
+@media only screen and (max-width: 482px) {
+	.content-area {
+		.post, .page {
+			padding: 1em;
+		}
+		.format-quote blockquote p:first-child {
+			margin-top: 2.5em !important;
+		}
+	}
+}
+/*--------------------------------------------------------------
+# Comment and Contact Form Responsive
+--------------------------------------------------------------*/
+@media only screen and (max-width: 991px) {
+	#contact_form {
+		.form-submit {
+			margin-bottom: 0;
+		}
+	}
+	.comment-respond .pd-right {
+		padding-right: 15px;
+	}
+	.comment-respond .pd-left {
+		padding-left: 15px;
+	}
+	.contact-respond {
+		.padding-right {
+			padding-right: 15px;
+		}
+		.padding-left-right {
+			padding-right: 15px;
+			padding-left: 15px;
+		}
+		.padding-left {
+			padding-left: 15px;
+		}
+	}
+}
+@media only screen and (max-width: 768px) {
+	.children {
+		margin-left: 40px !important;
+	}
+}
+
+/*--------------------------------------------------------------
+# About Me Page Responsive
+--------------------------------------------------------------*/
+@media only screen and (max-width: 992px) {
+	.about-me #author-image-bg {
+		height: 540px;
+	}
+	.about-me .author-name {
+	  font-size: 24px;
+	  margin-top: 20px;
+	  text-align: center;
+	}
+	.about-me #author-skill .skill-one.circliful {
+		margin-right: 15px;
+	}
+}
+@media only screen and (max-width: 490px) {
+	.about-me #author-image-bg {
+		height: 350px;
+	}
+}
+/*--------------------------------------------------------------
+# Contact Page Responsive
+--------------------------------------------------------------*/
+@media (max-width: 767px) {
+	.contact-page .address .dl-horizontal dd {
+		margin-left: 0 !important;
+		margin-top: 4px;
+	}
+}
+
+/*--------------------------------------------------------------
+# 404 page Responsive
+--------------------------------------------------------------*/
+@media only screen and (max-width: 984px) {
+	.error-page .border-left {
+		display: none;
+	}
+}
+@media only screen and (max-width: 577px) {
+	.error-page .go-to {
+		margin: 0 !important;
+	}
+	.error-page .search {
+		padding: 0 1em;
+	}
+	.error-page .go-button {
+		width: 100%;
+		margin-bottom: 0.9em;
+	}
+	.error-page .go-to:first-child {
+		left: 0 !important;
+	}
+	.error-page .go-to:last-child {
+		right: 0 !important;
+	}
+}

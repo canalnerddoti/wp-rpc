@@ -1,0 +1,143 @@
+.navigation {
+	padding-top: 15px;
+    z-index: 1;
+    font-size: 14px;
+    clear: both;
+    overflow: hidden;
+    width: 100%;
+    display: block;
+    padding-bottom: 15px;
+    margin-top: 30px;
+	&:before, &:after {
+		content: " ";
+		display: table;
+	}
+	&:after {
+		clear: both;
+	}
+	.nav-links {
+		list-style: none;
+		padding: 0;
+		text-align: center;
+		font-size: 1em;
+		font-weight: bold;
+		margin: 0;
+		@include prefixed(transition, all 0.2s ease-in);
+		a {
+			font-weight: bold;
+		}
+		> li {
+			display: inline-block;
+			&:first-child {
+				margin-right: 45px;
+			}
+			&:last-child  {
+				margin-left: 45px;
+			}			
+			a, span {
+				padding: 8px 12px;
+				background: $color__white;
+				border: 1px solid $color__border-two;
+				@include prefixed(backface-visibility, hidden);
+				@include prefixed(transition-property, background);
+				@include prefixed(transition-property, border-color);
+				@include prefixed(transition-duration, 0.3s);
+			}
+			a > {
+				span {
+					padding: 0;
+					border: 0;
+				}
+			}
+			span.page-numbers.dots {
+				border: 0;
+				background: transparent;
+			}
+			a:hover {
+				color: $color__white;
+			}
+			&.active {
+				a, span {
+					color: $color__white;
+				}
+			}
+		}
+		li.nav-previous, li.nav-next {
+			a {
+				background: transparent;
+				border: 0;
+				padding: 0;
+				display: block;
+				position: relative;
+				@include prefixed(transition-property, color);
+				@include prefixed(transition-duration, 0.3s);
+			}
+			a:hover {
+				background: transparent;
+				color: inherit;
+			}
+			&.disabled > a {
+				pointer-events: none;
+				filter: alpha(opacity=60);
+				opacity: 0.6;
+			}
+			a > span {
+				background: transparent;
+			}
+		}
+		li.nav-previous {
+			a .fa-angle-double-left {
+				font-size: 13px;
+				margin-right: 8px;				
+			}
+			> a:after {
+				bottom: -4px;
+				content: "";
+				height: 2px;
+				position: absolute;
+				width: 45px;
+				right: 0;
+				@include prefixed(backface-visibility, hidden);
+				@include prefixed(transition-property, width);
+				@include prefixed(transition-duration, 0.3s);
+			}
+			> a:hover:after {
+				width: 60px;
+			}
+		}
+		li.nav-next {
+			a .fa-angle-double-right {
+				font-size: 13px;
+				margin-left: 8px;
+			}
+			> a:after {
+				bottom: -4px;
+				content: "";
+				height: 2px;
+				position: absolute;
+				width: 26px;
+				left: 0;
+				@include prefixed(backface-visibility, hidden);
+				@include prefixed(transition-property, width);
+				@include prefixed(transition-duration, 0.3s);
+			}
+			> a:hover:after {
+				width: 40px;
+			}	
+		}
+	}	
+}
+/* page link pagination */
+.entry-content {
+	.page-links {
+		> a, > span {
+			border: 1px solid $color__border-one;
+			font-size: 13px;
+    		padding: 6px 11px;
+    		margin: 0 2px;
+		}
+		> span {
+			color: $color__white;
+		}
+	}
+}
